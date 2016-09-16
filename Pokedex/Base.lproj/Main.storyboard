@@ -5,6 +5,14 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="GameboyFont.ttf">
+            <string>G.B.BOOT</string>
+        </array>
+        <array key="PokemonFont.ttf">
+            <string>PokemonSolidNormal</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -19,9 +27,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LK0-zd-bxD">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokedex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwS-mu-MfU">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="180" id="2oo-cd-JtH"/>
+                                            <constraint firstAttribute="height" constant="35" id="n4d-we-bB8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="26"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xgh-dK-lMk">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="e6A-97-9OP"/>
+                                            <constraint firstAttribute="width" constant="30" id="sKc-PQ-OOH"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="music"/>
+                                        <connections>
+                                            <action selector="musicButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fFK-GW-kRf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.34509803921568627" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Xgh-dK-lMk" secondAttribute="bottom" constant="12" id="3HW-Pe-8lP"/>
                                     <constraint firstAttribute="height" constant="65" id="9XX-FK-XL4"/>
+                                    <constraint firstItem="nwS-mu-MfU" firstAttribute="centerX" secondItem="LK0-zd-bxD" secondAttribute="centerX" id="ELk-Zf-p43"/>
+                                    <constraint firstAttribute="bottom" secondItem="nwS-mu-MfU" secondAttribute="bottom" constant="8" id="dYq-Ce-o0I"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xgh-dK-lMk" secondAttribute="trailing" constant="8" id="rrl-7H-XZa"/>
                                 </constraints>
                             </view>
                             <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="ehg-YQ-Uv4">
@@ -54,7 +87,7 @@
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xaa-gT-8QI">
                                                     <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                                    <fontDescription key="fontDescription" name="G.B.BOOT" family="G.B.BOOT" pointSize="14"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -108,5 +141,6 @@
     <resources>
         <image name="1" width="120" height="120"/>
         <image name="bg" width="1920" height="1200"/>
+        <image name="music" width="100" height="100"/>
     </resources>
 </document>
