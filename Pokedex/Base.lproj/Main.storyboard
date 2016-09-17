@@ -224,16 +224,16 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MNp-SJ-K1Z">
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OaO-RS-Xlf">
-                                                        <frame key="frameInset" width="48" height="16"/>
+                                                        <frame key="frameInset" width="54" height="19"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="TYPE:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1L-AC-Pip">
-                                                                <frame key="frameInset" width="40" height="16"/>
+                                                                <frame key="frameInset" width="45" height="19"/>
                                                                 <fontDescription key="fontDescription" name="G.B.BOOT" family="G.B.BOOT" pointSize="16"/>
                                                                 <color key="textColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7I-LR-2g3">
-                                                                <frame key="frameInset" minX="45" width="3" height="16"/>
+                                                                <frame key="frameInset" minX="50" width="5" height="19"/>
                                                                 <fontDescription key="fontDescription" name="G.B.BOOT" family="G.B.BOOT" pointSize="16"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
@@ -241,16 +241,16 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="zMh-XU-ZqX">
-                                                        <frame key="frameInset" minX="271" width="72" height="16"/>
+                                                        <frame key="frameInset" minX="257" width="86" height="19"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="DEFENSE:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bz8-CD-YDc">
-                                                                <frame key="frameInset" width="65" height="16"/>
+                                                                <frame key="frameInset" width="77" height="19"/>
                                                                 <fontDescription key="fontDescription" name="G.B.BOOT" family="G.B.BOOT" pointSize="16"/>
                                                                 <color key="textColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDc-Xp-de9">
-                                                                <frame key="frameInset" minX="70" width="3" height="16"/>
+                                                                <frame key="frameInset" minX="82" width="5" height="19"/>
                                                                 <fontDescription key="fontDescription" name="G.B.BOOT" family="G.B.BOOT" pointSize="16"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
@@ -264,16 +264,16 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Yy6-xe-q3g">
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="TNU-Z3-KBQ">
-                                                                <frame key="frameInset" width="52" height="15"/>
+                                                                <frame key="frameInset" width="58" height="18"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Height:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4D-VB-0w4">
-                                                                        <frame key="frameInset" width="44" height="15"/>
+                                                                        <frame key="frameInset" width="49" height="18"/>
                                                                         <fontDescription key="fontDescription" name="G.B.BOOT" family="G.B.BOOT" pointSize="15"/>
                                                                         <color key="textColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cm8-VT-OKw">
-                                                                        <frame key="frameInset" minX="49" width="3" height="15"/>
+                                                                        <frame key="frameInset" minX="54" width="5" height="18"/>
                                                                         <fontDescription key="fontDescription" name="G.B.BOOT" family="G.B.BOOT" pointSize="15"/>
                                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                         <nil key="highlightedColor"/>
@@ -281,16 +281,16 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="reU-Xe-y4N">
-                                                                <frame key="frameInset" minX="263" width="81" height="15"/>
+                                                                <frame key="frameInset" minX="252" width="92" height="18"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Pokedex ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H1Z-LU-X3V">
-                                                                        <frame key="frameInset" width="73" height="15"/>
+                                                                        <frame key="frameInset" width="82" height="18"/>
                                                                         <fontDescription key="fontDescription" name="G.B.BOOT" family="G.B.BOOT" pointSize="15"/>
                                                                         <color key="textColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWt-Yy-lR6">
-                                                                        <frame key="frameInset" minX="78" width="3" height="15"/>
+                                                                        <frame key="frameInset" minX="87" width="5" height="18"/>
                                                                         <fontDescription key="fontDescription" name="G.B.BOOT" family="G.B.BOOT" pointSize="15"/>
                                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                         <nil key="highlightedColor"/>
@@ -302,16 +302,16 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="B2K-eQ-QMf">
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="FpA-SN-EXO">
-                                                                <frame key="frameInset" width="56" height="15"/>
+                                                                <frame key="frameInset" width="60" height="18"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Weight:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCk-6Y-EtP">
-                                                                        <frame key="frameInset" width="49" height="15"/>
+                                                                        <frame key="frameInset" width="51" height="18"/>
                                                                         <fontDescription key="fontDescription" name="G.B.BOOT" family="G.B.BOOT" pointSize="15"/>
                                                                         <color key="textColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vth-AP-ClN">
-                                                                        <frame key="frameInset" minX="54" width="3" height="15"/>
+                                                                        <frame key="frameInset" minX="56" width="5" height="18"/>
                                                                         <fontDescription key="fontDescription" name="G.B.BOOT" family="G.B.BOOT" pointSize="15"/>
                                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                         <nil key="highlightedColor"/>
@@ -319,16 +319,16 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="R4q-NS-xwV">
-                                                                <frame key="frameInset" minX="255" width="88" height="15"/>
+                                                                <frame key="frameInset" minX="248" width="95" height="18"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Base Attack:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKe-2O-NSF">
-                                                                        <frame key="frameInset" width="81" height="15"/>
+                                                                        <frame key="frameInset" width="86" height="18"/>
                                                                         <fontDescription key="fontDescription" name="G.B.BOOT" family="G.B.BOOT" pointSize="15"/>
                                                                         <color key="textColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="inF-gw-ePl">
-                                                                        <frame key="frameInset" minX="86" width="3" height="15"/>
+                                                                        <frame key="frameInset" minX="91" width="5" height="18"/>
                                                                         <fontDescription key="fontDescription" name="G.B.BOOT" family="G.B.BOOT" pointSize="15"/>
                                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                         <nil key="highlightedColor"/>

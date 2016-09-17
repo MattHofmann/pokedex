@@ -138,12 +138,6 @@ class Pokemon {
                     self._defense = "\(defense)"
                 }
                 
-                print("PokemonSTATS:")
-                print(self._weight)
-                print(self._height)
-                print(self._attack)
-                print(self._defense)
-                
                 // type
                 if let types = dict["types"] as? [Dictionary<String, String>], types.count > 0 {
                     if let name = types[0]["name"] {
