@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B40D43981D8DA0660045A3C4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40D438B1D8D9FF50045A3C4 /* Alamofire.framework */; };
 		B40D43991D8DA0670045A3C4 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B40D438B1D8D9FF50045A3C4 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B40D439E1D8DA2FB0045A3C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40D439D1D8DA2FB0045A3C4 /* Constants.swift */; };
 		B4707ACB1D8C3F2800033440 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4707ACA1D8C3F2800033440 /* Pokemon.swift */; };
 		B4707ACF1D8C484B00033440 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4707ACE1D8C484B00033440 /* PokeCell.swift */; };
 		B4707AD11D8C517A00033440 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4707AD01D8C517A00033440 /* csv.swift */; };
@@ -99,6 +100,7 @@
 
 /* Begin PBXFileReference section */
 		B40D437F1D8D9FF50045A3C4 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		B40D439D1D8DA2FB0045A3C4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B4707ACA1D8C3F2800033440 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		B4707ACE1D8C484B00033440 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		B4707AD01D8C517A00033440 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				B4707AD01D8C517A00033440 /* csv.swift */,
+				B40D439D1D8DA2FB0045A3C4 /* Constants.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				B48289881D8C2E97002F9B1E /* ViewController.swift in Sources */,
 				B48289861D8C2E97002F9B1E /* AppDelegate.swift in Sources */,
 				B4707ACB1D8C3F2800033440 /* Pokemon.swift in Sources */,
+				B40D439E1D8DA2FB0045A3C4 /* Constants.swift in Sources */,
 				B4707AD11D8C517A00033440 /* csv.swift in Sources */,
 				B49978C01D8D67C300925142 /* PokemonDetailViewController.swift in Sources */,
 			);
