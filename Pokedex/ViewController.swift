@@ -111,9 +111,18 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         }
     }
     
-    // Function if the user taps a cell
+    // Segue to PokemonDetailVC if the user taps a cell
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        // TODO
+        var poke: Pokemon!
+        // set list for Segue depending on mode
+        if inSearchMode {
+            poke = filteredPokemon[indexPath.row]
+        } else {
+            poke = pokemon[indexPath.row]
+        }
+        
+        performSegue(withIdentifier: "PokemonDetailVC", sender: poke)
+        
     }
     
     // Amount of items in the section
@@ -177,6 +186,17 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     // hides keyboard when searchbutton is clicked
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         view.endEditing(true)
+    }
+ 
+    // MARK: perpareSegue for DetailVC
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "PokemonDetailVC" {
+            if let detailsVC  = segue.destination as? PokemonDetailViewController {
+                if let poke = sender as? Pokemon {
+                    detailsVC.pokemon = poke
+                }
+            }
+        }
     }
     
 }
