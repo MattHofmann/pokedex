@@ -15,3 +15,7 @@ Screenshots:
 ![pokedex_screen_04](https://cloud.githubusercontent.com/assets/20715639/19027485/de6866de-896b-11e6-95ef-dac63f1a3e8d.PNG)
 
 This App is for educational purpose only.
+
+Resources:
+- Font "Pokemon" by IPBP.
+- Font "Early GameBoy" by Jimmy Campbell.
