@@ -1,6 +1,12 @@
 # pokedex
 A Pokedex app using Pokeapi and Alamofire. (iOS10, Swift3)
 
+Including: 
+- Custom fonts, playing audio with AVAudioPlayer
+- Downloading and parsing JSON data with Alamofire from Pokeapi
+- Parsing csv
+- UICollectionsViews
+
 Screenshots:
 
 ![pokedex_screen_01](https://cloud.githubusercontent.com/assets/20715639/19027482/de64b5fc-896b-11e6-83aa-9d16794becd0.PNG)
